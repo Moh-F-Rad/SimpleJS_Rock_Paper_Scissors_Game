@@ -1,0 +1,35 @@
+/* Mohammad Fakhari Rad
+Student ID: 20154117 */
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 95%;
+	margin: 15px auto;
+    padding: 20px 10px;
+    border: 10px double navy;
+}
+
+header{
+	float: left;
+	margin-right: 60px;
+}
+
+main p { 
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#cycle-slideshow img{
+	display: block;
+	clear: both;
+	margin: auto;
+}
+
+#adv-custom-caption {
+	margin-top: .25em;
+	font-size: 1.1em;
+	padding-left: 35px;
+}
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- Mohammad Fakhari Rad - Student ID: 20154117
+Fall 2019 CP1290 Advanced JavaScript - Project -->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Cycle Plugin</title>
+		<!-- Normal style sheet used for layout and general formatting. -->
+		<link href="main.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="MyStyle.css">
+		<!-- jQuery library reference. Latest is always referenced from jQuery's CDN. -->
+		<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<!-- Reference to the jQuery Cycle plugin. -->
+		<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<img src="images/mainlogo.png" alt="main Logo" id="mainlogo" width="100px" height="100px">
+			
+		</header>
+
+		<main>		
+			<p>These are the screenshots of the project, each part has been done according to the given task</p>
+			<p> Mohammad Fakhari Rad, Student ID: 20154117 </p>
+			<div class="cycle-slideshow"
+				data-cycle-fx="scrollHorz"
+				data-cycle-timeout="1000"
+				data-cycle-caption="#adv-custom-caption"
+				data-cycle-caption-template="Slide {{slideNum}}: {{cycleTitle}}">
+				<img src="images/capture1.jpg" alt="" data-cycle-title="Main Logo">
+				<img src="images/capture2.jpg" alt="" data-cycle-title="Left side">
+				<img src="images/capture3.jpg" alt="" data-cycle-title="User Registration form">
+				<img src="images/capture4.jpg" alt="" data-cycle-title="Main Game Board">
+				<img src="images/capture5.jpg" alt="" data-cycle-title="Game Instruction image">
+				<img src="images/capture6.jpg" alt="" data-cycle-title="Game instruction text">
+				<img src="images/capture7.jpg" alt="" data-cycle-title="Joining confirmation">
+				<img src="images/capture8.jpg" alt="" data-cycle-title="Form validation">
+				
+				<br>
+				<!-- empty element for caption -->
+				<div id="adv-custom-caption"></div>
+			</div>
+			<br>
+			
+		</main>		<!-- end of main -->
+		
+	</body>
+</html>

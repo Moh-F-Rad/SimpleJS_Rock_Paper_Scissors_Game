@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- Mohammad Fakhari Rad - Student ID: 20154117
+Fall 2019 CP1290 Advanced JavaScript - Project -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mohhaa Game Center!</title>
+	<link rel="stylesheet" type="text/css" href="MyStyle.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="MyJS.js"></script>
+</head>
+
+<body>
+	<header>
+		<img src="images/mainlogo.png" alt="main Logo" id="mainlogo">
+		<img src="images/WelcomeGames.png" alt="Games to the games section logo" id="topHeading" >
+	</header>
+	
+	<main id="games" class="hands">
+		<aside id="side">
+			<nav id="mainNav">
+			<a href="main.html"><img src="images/HomeLogo.png" alt="Home page logo" style="width:250px;height:100px;"></a>
+			<a href="games.html"><img src="images/GamesLogo.png" alt="Games center logo" style="width:250px;height:82px;"></a>
+			<a href="cycle2/index.html"><img src="images/CreditsLogo.png" alt="Credits logo" style="width:250px;height:110px;"></a>
+			</nav>
+		</aside>
+
+		<section id="mainGame">
+
+			<div id="topGameSetting">
+				<p>Rock! Paper! Scissors!</p> 
+			</div>
+			
+			<div id="start">
+				<input type="button" id="startButton" name="start" value="START">
+				<br>
+			</div>
+			
+			<div id="gameBoard">
+				<div id="userHands">
+					<img class="userHand" id="Scissors" src="images/Scissors.jpg" alt="1">
+					<img class="userHand" id="Rock" src="images/Rock.jpg" alt="2">
+					<img class="userHand" id="Paper" src="images/Paper.jpg" alt="3">
+				</div>
+
+				<div id="screen">
+					<p class="points" >Your points: <br><span id="screenUser"> 0</span></p>
+					<p class="points" id="cpupoints">CPU Points: <br><span id="screenCPU"> 0</span></p>
+				</div>
+				
+				<div id="cpuForm" >
+					<img id="cpuFormImage">
+				</div>
+				
+				<div id="cpuHands">
+					<img class="cpuHand" id="ScissorsR2L" src="images/ScissorsR2L.jpg" alt="1">
+					<img class="cpuHand" id="RockR2L" src="images/RockR2L.jpg" alt="2">
+					<img class="cpuHand" id="PaperR2L" src="images/PaperR2L.jpg" alt="3">
+				</div>
+				
+			</div>
+		
+		</section>
+		<br>
+
+		<button type="button" id="button">Game Instructions!</button>
+		<div id="gameInstructionGuid"></div>
+
+    </main>
+	<a href="main.html" ><img id="back" src="images/back.png" alt="back to homepage"></a>
+</body>
+</html>
